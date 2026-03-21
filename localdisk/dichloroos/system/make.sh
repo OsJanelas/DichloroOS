@@ -5,3 +5,4 @@ nasm -f bin localdisk/dichloroos/system/interrupts/interrupts.asm -o localdisk/d
 gcc -m32 -c localdisk/dichloroos/system/include/ports.c -o localdisk/dichloroos/system/binaries/ports.o -ffreestanding
 gcc -m32 -c localdisk/dichloroos/system/include/math.c -o localdisk/dichloroos/system/binaries/math.o -ffreestanding
 gcc -m32 -c localdisk/dichloroos/system/graphics.c -o localdisk/dichloroos/system/binaries/graphics.o -ffreestanding
+gcc -m32 -c localdisk/dichloroos/system/gl.c -o localdisk/dichloroos/system/binaries/gl.o -ffreestanding
