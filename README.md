@@ -1,10 +1,10 @@
 <br />
 <div align = "center">
-  <a href = "https://github.com/ArTicZera/NovaOS">
+  <a href = "https://github.com/OsJanelas/DichloroOS">
     <img src = "dichloro/resource/logo.png" alt = "Logo" width = "120" height = "110">
   </a>
 </div>
 
 <h3 align = "center">
-  NovaOS
+  DichloroOS
 </h3>
