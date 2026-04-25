@@ -1,1 +1,0 @@
-void errscreen(const char* error);
