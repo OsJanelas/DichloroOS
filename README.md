@@ -9,4 +9,6 @@
   DichloroOS
 </h3>
 
-A System x86 written in C and Assembly based in NovaOS
+<h3 align = "center">
+  A System x86 written in C and Assembly based in NovaOS
+</h3>
