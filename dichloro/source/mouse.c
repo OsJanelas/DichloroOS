@@ -69,13 +69,13 @@ void savearea()
     }
 }
 
-void resetpreviouscursor()
+void resetpreviouscursor(int x, int y)
 {
-    for (int y = 0; y < HCURSOR; y++)
+    for (int yy = 0; yy < HCURSOR; yy++)
     {
-        for (int x = 0; x < WCURSOR; x++)
+        for (int xx = 0; xx < WCURSOR; xx++)
         {
-            setpixel(mouseX + x, mouseY + y, mousearea[y * WCURSOR + x]);
+            setpixel(x + xx, y + yy, mousearea[yy * WCURSOR + xx]);
         }
     }
 }
